@@ -3,7 +3,9 @@ class Dog
   def initialize(bark)
     @bark = bark
   end
-  def bark = (bark)
+  def bark=(bark)
+    @bark = bark
+  end 
     
   def bark
     @bark
